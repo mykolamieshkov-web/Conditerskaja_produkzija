@@ -1,0 +1,165 @@
+/* 
+font-family: 'Uchen', serif;*/
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body {
+   background-color: black;
+   margin: 0;
+padding: 0;
+   
+}
+html {
+   scroll-behavior:smooth;
+}
+.fullscreenbanner {
+height: 100vw;
+width: 100vw;
+background-image: url('https://img4.goodfon.com/wallpaper/nbig/7/27/pirozhnye-konfety-klubnika-desert-sladosti-assorti.jpg');
+background-repeat: no-repeat;
+background-size:contain;
+text-align: center;
+
+}
+#logo {
+   max-width: 100%;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   border: 5px solid hotpink;
+   border-radius: 50%;
+   overflow: auto;
+   background-color: black;
+}
+.fullscreenbanner h3 {
+   font-family: 'Uchen', serif;
+   font-size: 50px;
+   color: white;
+   line-height: 10%;
+   padding-top: 22px;
+   font-weight: 700;
+   text-decoration: underline hotpink;
+   text-shadow: 2px 2px black;
+
+}
+.fullscreenbanner p {
+   padding-top: 50px;
+   text-align: center;
+   font-family: 'Uchen', serif;
+   color: hotpink;
+   font-size: 24px;
+   font-weight: 600;
+
+}
+#arrow {
+margin-top: 310px;
+width: 50px;
+height: 50px;
+max-width: 100%;
+opacity: 0.5;
+}
+.navigation {
+   display: flex;
+}
+
+#title {
+   text-decoration: none;
+   margin-right: 50%;
+   justify-content: flex-start;
+   color: white;
+}
+.navigation {
+   display: flex;
+   padding-left: 5px;
+   margin: 5px;
+   padding: 6px;
+   margin-left: 100px;
+   overflow: hidden;
+}
+.navigation a {
+   display: inline;
+   font-size: 18px;
+   text-decoration: none;
+   opacity: 0.5;
+   color: white; 
+   justify-content: space-around;
+   padding: 16px;
+}
+.navigation a:hover {
+   color: hotpink;
+   cursor: pointer;
+   transform: scale(1.1);  
+}
+
+#galery {
+   text-align: center;
+   font-family: 'Uchen', serif;
+   font-size: 47px;
+   text-decoration: none;
+   padding-top: 5%;
+}
+.container {
+   width: 100%;
+   height: 500px;
+  background-color: black;
+}
+.content-box {
+   display: flex;
+   margin: 2px;
+   padding: 4px;
+   padding-top: 120px;
+}
+.content-box p {
+   color: white;
+   font-family: 'Uchen', serif ;
+   font-size: 18px;
+   text-shadow: 1px 1px hotpink;
+}
+.content-box img {
+   width: auto;
+   height: 200px;
+}
+.content-box img:hover {
+   transform: scale(1.3);
+}
+.first_box {
+   display: inline;
+   width: 100%;
+   height: 325px;
+   
+}
+.second_box {
+   display: inline;
+   width:100%;
+   height: 325px;
+   
+}
+.trird_box {
+   display: inline;
+   width: 100%;
+   height: 325px;
+  
+}
+.contact {
+   display: flex;
+  
+}
+.contact img {
+   width: 225px;
+   height: 150px;
+   max-width: 100%;
+   padding-top: 3%;
+}
+#foother_text {
+text-decoration: none;
+color: white;
+font-family: 'Uchen', serif;
+font-size: 50px;
+color: white;
+line-height: 10%;
+padding-top: 22px;
+font-weight: 700;
+}
+
