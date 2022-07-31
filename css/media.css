@@ -198,3 +198,13 @@ Padding: 4px;
    height: 25px;
    max-width: 100%;
 }
+.fullscreenbanner h3 {
+   font-family: 'Uchen', serif;
+   font-size: 25px;
+   color: white;
+   padding-top: 22px;
+   font-weight: 200;
+   text-decoration: underline hotpink;
+   text-shadow: 2px 2px black;
+
+}
